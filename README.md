@@ -1,7 +1,7 @@
 # 🎨 Personal Portfolio Website
 
 A simple personal portfolio website built using **only HTML and CSS**. This website showcases my projects, skills, experience, and contact information in a responsive, mobile-friendly layout.  
-[![Screen Shot](Assets/Site-SS.png)](https://harikrishnanspillai.github.io/HSP/)  
+[![Screen Shot](Assets/Site-SS.png)](https://harikrishnanspillai.github.io/)  
 ## 🔧 Features
 - Responsive layout  
 - Clean design  
@@ -22,4 +22,4 @@ A simple personal portfolio website built using **only HTML and CSS**. This webs
 ├── Site-SS.png  
 └── todo.png  
 ## Live Demo
-[Visit Site](https://harikrishnanspillai.github.io/HSP/)
+[Visit Site](https://harikrishnanspillai.github.io/)
