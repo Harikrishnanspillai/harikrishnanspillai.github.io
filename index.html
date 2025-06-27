@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>HSP | Home</title>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">HSP</a>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+        <a href="index.html#contact" class="button">Contact Me</a>
+    </header>
+    <main>
+        <div style="float: right;">
+            <img id="me" src="Assets/Me.jpg" alt="My picture">
+        </div>
+        <div class="home">
+            <h4>Hey there!</h4>
+            <h1>I'm <span>Harikrishnan</span><br>a Creative Web Developer</h1>
+            <p>I craft beautiful, responsive websites with clean code and bold ideas. Let's build something awesome together.</p>
+            <br><br><br>
+            <div class="button-group">
+                <a href="resume.html" class="button">Hire me</a>
+                <a href="projects.html" class="button">My Works</a>
+            </div>
+        </div>
+    </main>
+    <section id="about">
+       <h1>About <span>Me</span></h1><hr><br>
+       Hey! I'm Harikrishnan, a tech enthusiast with a passion for building, breaking, and understanding how things work in the digital world. <br><br>
+       I specialize in web development, but my skills extend far beyond that. I'm also experienced in Python and Java, which I use for everything from backend scripting to developing robust applications. On top of that, I have a growing interest in cybersecurity—I enjoy learning how to protect systems, analyze vulnerabilities, and stay ahead in the ever-evolving tech landscape. <br><br>
+       What drives me is the thrill of solving problems, automating tasks, and bringing ideas to life through code. Whether it's creating a responsive website, writing efficient algorithms, or diving into network security concepts—I’m always up for the challenge. <br><br>
+       Let’s connect, collaborate, and build something awesome! <br>
+       <p></p>
+    </section>
+    <section id="contact">
+        <h1>Contact <span>Me</span></h1><hr><br>
+        <form method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email address: </label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="sub">Subject: </label>
+                <input type="text" id="sub" name="sub"><br><br>
+                <label for="msg">Your message: </label>
+                <textarea id="msg" name="msg" cols="20" rows="1" required></textarea>
+                <input type="submit" value="Submit" class="button">
+        </form>
+    </section>
+    <footer id="footer">
+        <div>
+            <p>Socials</p>
+            <a href="https://www.linkedin.com/in/harikrishnan-s-pillai-201b03324/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Harikrishnanspillai" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://leetcode.com/u/harikrishnanspillai/" target="_blank"><i class='bx bx-code-alt'></i></a>
+        </div>
+        <div>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="projects.html">Project</a>
+            <a href="resume.html">Resume</a>
+            <a href="https://github.com/Harikrishnanspillai/HSP" target="_blank">Repository</a>
+        </div>
+    </footer>
+</body> 
